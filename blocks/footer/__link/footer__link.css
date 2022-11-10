@@ -4,6 +4,6 @@
   font-weight: 400;
   color: #fff;
   text-decoration: none;
-  transition: opacity .2s linear;
-  opacity: 1;
+  transition: .3s ease-in-out;
+  background-color: transparent;
 }
