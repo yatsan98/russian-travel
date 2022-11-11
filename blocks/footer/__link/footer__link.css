@@ -1,9 +1,26 @@
 .footer__link {
+  display: flex;
   font-size: 16px;
   line-height: 1.12;
   font-weight: 400;
   color: #fff;
   text-decoration: none;
-  transition: .3s ease-in-out;
-  background-color: transparent;
+  transition: opacity .3s ease-in-out;
+  background-color: transparent;  
+  opacity: 1;
+  margin-right: 18px;
+}
+
+.footer__link:hover {
+  opacity: .6;
+}
+
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    flex-direction: column;
+    align-content: flex-start;
+    font-size: 24px;
+    line-height: 1;
+  }
 }

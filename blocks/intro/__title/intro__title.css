@@ -6,3 +6,23 @@
   margin: 82px 0 40px;
   font-weight: 900;
 }
+
+@media screen and (max-width: 1279px) {
+  .intro__title {
+    margin: 92px 0 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__title {
+    margin: 88px 0 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__title {
+    margin: 64px 0 40px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

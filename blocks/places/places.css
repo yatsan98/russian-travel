@@ -3,3 +3,23 @@
   margin-top: 92px;
   max-width: 984px;
 }
+
+@media screen and (max-width: 1279px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    margin-top: 88px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    margin-top: 64px;
+    max-width: 320px;
+  }
+}

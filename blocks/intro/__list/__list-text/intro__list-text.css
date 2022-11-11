@@ -5,3 +5,15 @@
   line-height: 1.5;
   font-weight: 700;
 }
+
+@media screen and (max-width: 1023px) {
+  .intro__list-text {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__list-text {
+    max-width: 288px;
+}
+}
