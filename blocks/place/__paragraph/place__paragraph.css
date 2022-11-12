@@ -6,6 +6,10 @@
   margin: 0 0 26px;
 }
 
+.place__pharagraph:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1279px) {
   .place__pharagraph {
     max-width: 456px;
