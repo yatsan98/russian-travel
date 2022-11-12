@@ -6,9 +6,23 @@
   margin: 0 0 26px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
+  .place__pharagraph {
+    max-width: 456px;
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
   .place__pharagraph {
      font-size: 16px;
      margin: 0 0 25px;
+     max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__pharagraph {
+    max-width: 320px;
   }
 }
