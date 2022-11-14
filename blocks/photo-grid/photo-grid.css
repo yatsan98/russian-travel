@@ -20,6 +20,7 @@
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     gap: 16px;
     margin-top: 88px;
+    margin-bottom: 88px;
   }
 }
 
@@ -29,5 +30,6 @@
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     gap: 12px;
     margin-top: 64px;
+    margin-bottom: 64px;
   }
 }
