@@ -8,7 +8,6 @@
   transition: opacity .3s ease-in-out;
   background-color: transparent;
   opacity: 1;
-  margin-right: 18px;
 }
 
 .footer__link:hover {
